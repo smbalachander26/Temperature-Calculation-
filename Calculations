@@ -37,5 +37,5 @@ final_z_score_df = county_mean_temp_df[['fips_code', 'z_score']].copy()
 # Saves the new DataFrame to a CSV file
 final_z_score_df.to_csv('county_mean_temp_z_scores.csv', index=False)
 
-print("New spreadsheet 'county_mean_temp_z_scores.csv' created successfully. Here's a preview:")
+print("New spreadsheet 'county_mean_temp_z_scores.csv' created!")
 display(final_z_score_df.head())
